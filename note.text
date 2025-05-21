@@ -5,3 +5,5 @@ insert into course (id, name, author) values (1, 'Spring boot', 'Ajay Yadav') ;
 delete from course where id=1
 
 update course set name = 'Spring Boot' where id = 1
+
+update course set author = 'Ajay Bahadur' where id = 1
